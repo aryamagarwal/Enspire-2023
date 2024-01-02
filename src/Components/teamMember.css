@@ -1,0 +1,45 @@
+#team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row; */
+    /* width:80%; */
+    margin:0px;
+    padding:0px;
+    color: white;
+    /* border: 2px solid red; */
+}
+#tTitle:hover
+{
+color: black !important;
+    text-shadow: -2px 2px 0 white,
+        2px 2px 0 #32acc0,
+        1px -1px 0 white,
+        -2px -2px 0 #32acc0;
+}
+.tMem {
+
+    color: white;
+    margin-left: 20px;
+    /* border: 2px solid white; */
+    /* clip-path: polygon(85% -1%, 100% 0%, 100% 78%, 81% 99%, 32% 100%, 23% 85%, 14% 100%, -1% 99%, -1% 0%, 63% 0%, 72% 6%); */
+    height: auto;
+    width: 20vw;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+}
+.profphoto {
+    height: 15vw;
+    width: 15vw;
+    margin: 0px;
+    border-radius: 50%;
+}
+.txt {
+    margin: 0px;
+    font-size: 1vw;
+    text-align: center;
+}

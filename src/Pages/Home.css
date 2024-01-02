@@ -1,0 +1,68 @@
+.slide
+{
+    color: white;
+    font-size: 2.5vw ;
+     text-align : center;
+     height: 7vh;
+     display:flex;
+     overflow:hidden;
+     /* border: 2px sloid red; */
+     /* background-color: red; */
+     font-family: 'Tilt Neon';
+}
+
+.colorText h1{
+   
+    color:orange; font-size: 8vw;  font-family: 'Black Ops One';
+}
+.textBelow2{
+    background-image: linear-gradient( 45deg,  rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% );
+    background: linear-gradient(to left ,black 22%,  red 28%, orange 29%, black 21%);
+    background-size: 350% 300%; 
+    animation: color2 5s ease-in-out infinite;
+}
+@keyframes color2 {
+    0%{
+        background-position: 0% 0%;
+    }
+    
+    
+    100%
+    {
+        background-position: 100% 0%;
+    }
+}
+.mainContent{
+    margin-top: 10vh;
+    height: 70vh;
+    overflow:hidden;
+}
+.textBelow{
+    background-image: linear-gradient( 45deg,  rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% );
+    background: linear-gradient(to right ,black 22%,  red 28%, orange 29%, black 21%);
+    background-size: 350% 300%; 
+    animation: color 5s ease-in-out infinite;
+}
+@keyframes color {
+    0%{
+        background-position: 100% 0%;
+    }
+    
+    
+    100%
+    {
+        background-position: 0% 0%;
+    }
+}
+.colorText
+{
+    position: relative;
+    top:-55vh;
+    left:0;
+    background-color: black;
+}
+.colorText:hover > h1
+{
+    transform: translateY(-20px);
+    transition: 0.2s linear;
+}
