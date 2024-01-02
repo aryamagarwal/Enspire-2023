@@ -66,3 +66,35 @@
     transform: translateY(-20px);
     transition: 0.2s linear;
 }
+.merch
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+
+}
+#merchImg
+{
+    width: 40%;
+    height: auto;
+}
+.speakers
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+.speakerImg
+{
+    height: 10vw;
+    width: 12vw;
+}
+.speakerDes
+{
+    width: 70%;
+}
+.speakerDes > h1{
+    color:orange;
+}

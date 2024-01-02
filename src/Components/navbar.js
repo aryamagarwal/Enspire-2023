@@ -16,7 +16,7 @@ function Navbar() {
        else
        verMenu.style.display="none";
     }
-    const menuItem=[{name: "Home" , link: "/"} ,{ name: "Events" , link: "/events"} , {name: "Sponsors" , link: "/sponsors"} , {name: "Team" , link: "/team"} , { name: "Contact Us" , link: "/"}];
+    const menuItem=[{name: "Home" , link: "/"} ,{ name: "Events" , link: "/events"} , {name: "Sponsors" , link: "/sponsors"} , {name: "Team" , link: "/team"} , { name: "Contact Us" , link: "/contact-us"}];
     
   return (
     <>

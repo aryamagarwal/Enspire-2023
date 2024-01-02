@@ -27,7 +27,7 @@ function Team() {
       details={[ {name: "Mudit Yadav" , position:"Cell-Executive" , url:'./Assets/muditY.jpeg'} , {name: "Arsh Katkar" , position:"Cell-Executive" , url:'./Assets/arshKatkar.jpg'} ]}
       />
       <TeamMember title="Developers"
-      details={[ {name: "Karthik S" , position:"Developers Head" , url:'./Assets/karthikS.jpg'} , {name: "Deepak Chattwani" , position:"Developers Head" , url:'./Assets/devShah.jpeg'} ]}
+      details={[ {name: "Karthik S" , position:"Developers Head" , url:'./Assets/karthikS.jpg'} , {name: "Deepak Chattwani" , position:"Developers Head" , url:'./Assets/deepak.png'} ]}
       />
       <TeamMember title="Initiators"
       details={[ {name: "Tushar Agarwal" , position:"Initiators Head" , url:'./Assets/tusharAg.jpg' } ]}

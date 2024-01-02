@@ -1,0 +1,28 @@
+#footer{
+display:flex;
+justify-content: space-around;
+text-align: left;
+}
+.footItem h1{
+    font-size: 1vw;
+}
+.footItem
+{
+display:flex;
+flex-direction: column;
+}
+.footItem > #logo
+{
+height: 10vw;
+width: 10vw;
+}
+.footItem  h4{
+    font-size: 0.8vw;
+}
+.footItem a:visited{
+    color:white;
+    text-decoration-line: none;
+}
+.footItem a:hover{
+   border-bottom: 5px solid #32acc0;
+}
